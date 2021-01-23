@@ -9,6 +9,9 @@ class Shoe
     BRANDS << self.brand
   end
 
+  def self.brands
+    BRANDS.uniq
+  end
 
   
 
